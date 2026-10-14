@@ -1,6 +1,7 @@
 # Workshop 2: Building a Reliable Batch Data Pipeline
 **Orchestrated with Apache Airflow 3, Validated with Great Expectations 1.x, and Modeled in MySQL Data Warehouse**
-
+---
+**Sebastian Rojas Herrera**
 ---
 
 ## 1. Business Problem & Analytical Objective
