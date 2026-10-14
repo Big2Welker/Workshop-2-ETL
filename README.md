@@ -1,6 +1,6 @@
 # Workshop 2: Construcción de un Pipeline de Datos Batch Confiable
 **Orquestación con Apache Airflow 3, Validación con Great Expectations y Data Warehouse Dimensional en MySQL**
-
+**Sebastian Rojas Herrera**
 ---
 
 ## 1. Problema y Objetivo Analítico
