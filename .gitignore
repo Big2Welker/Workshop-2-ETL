@@ -1,0 +1,49 @@
+# ==============================================================================
+# GITIGNORE - Workshop 2: Reliable Music Batch Pipeline
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Airflow Runtime Logs & Dynamic Passwords
+logs/
+airflow-webserver.pid
+simple_auth_manager_passwords.json.generated
+*.log
+
+# Staging & Intermediate ETL Data (Generated dynamically by DAG tasks)
+data/staging/
+
+# Temporary Scratch Scripts & Draft Templates
+ver_datos.py
+estructura_inicial_readme.md
+
+# Operating System Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
