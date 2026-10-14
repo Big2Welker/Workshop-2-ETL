@@ -2,6 +2,12 @@
 # GITIGNORE - Workshop 2: Reliable Music Batch Pipeline
 # ==============================================================================
 
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
 # Virtual Environments
 .venv/
 venv/
